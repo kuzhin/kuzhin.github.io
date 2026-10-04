@@ -143,10 +143,12 @@ h2 { font-size: 2rem; text-align: center; margin-bottom: 40px; }
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
     transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-card:hover { transform: translateY(-5px); }
-.project-links { margin-top: 15px; display: flex;  align-items: center; gap: 15px; }
+.project-links { margin-top: auto; display: flex;  align-items: center; gap: 15px; }
 .project-links a { color: var(--primary-color); font-weight: 600; font-size: 0.9rem; }
 .project-links a:hover { text-decoration: underline; }
 
