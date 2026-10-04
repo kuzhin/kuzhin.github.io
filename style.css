@@ -146,7 +146,7 @@ h2 { font-size: 2rem; text-align: center; margin-bottom: 40px; }
 }
 
 .project-card:hover { transform: translateY(-5px); }
-.project-links { margin-top: 15px; display: flex; gap: 15px; }
+.project-links { margin-top: 15px; display: flex;  align-items: center; gap: 15px; }
 .project-links a { color: var(--primary-color); font-weight: 600; font-size: 0.9rem; }
 .project-links a:hover { text-decoration: underline; }
 
